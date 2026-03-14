@@ -18,7 +18,7 @@ No Gaussian assumption required.
 ## Motivation
 
 Standard financial risk models (VaR, parametric CVaR) assume log-normal returns.
-Real asset returns have **fat tails** — the empirical kurtosis of daily equity returns
+Real asset returns have **fat tails** . The empirical kurtosis of daily equity returns
 typically exceeds 3.  Chebyshev and Markov inequalities hold for *any* distribution
 with finite first and second moments, making them uniquely robust tools for
 model-agnostic worst-case analysis.
