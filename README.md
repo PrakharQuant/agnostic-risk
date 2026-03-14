@@ -3,8 +3,15 @@
 An interactive dashboard that applies **distribution-free probability inequalities** to real market data.
 No Gaussian assumption required.
 
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://agnostic-risk-prakharquant.streamlit.app)
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://python.org)
 [![Streamlit](https://img.shields.io/badge/streamlit-1.x-red.svg)](https://streamlit.io)
+
+---
+
+## 🌐 Live App
+
+**[https://agnostic-risk-prakharquant.streamlit.app](https://agnostic-risk-prakharquant.streamlit.app)**
 
 ---
 
@@ -19,9 +26,8 @@ model-agnostic worst-case analysis.
 ---
 
 ## Project Architecture
-
 ```
-agnostic_risk/
+agnostic-risk/
 ├── src/
 │   ├── data_engine.py      # Data Layer  — yfinance fetch + statistical moments
 │   ├── inequalities.py     # Logic Layer — pure math (Markov, Chebyshev, Variance Bound)
@@ -52,15 +58,11 @@ with a Normal distribution benchmark overlay.
 
 ## Quick Start
 
+### Run Locally
 ```bash
-# 1. Clone the repository
-git clone https://github.com/<your-username>/agnostic-risk.git
+git clone https://github.com/PrakharQuant/agnostic-risk.git
 cd agnostic-risk
-
-# 2. Install dependencies
 pip install -r requirements.txt
-
-# 3. Run the dashboard
 streamlit run src/app.py
 ```
 
@@ -78,7 +80,6 @@ Then open [http://localhost:8501](http://localhost:8501) in your browser.
 ---
 
 ## Requirements
-
 ```
 streamlit>=1.28
 yfinance>=0.2.28
