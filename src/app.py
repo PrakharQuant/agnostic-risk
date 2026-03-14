@@ -64,16 +64,18 @@ st.markdown("""
 
     /* ---------- callout boxes ---------- */
     .math-box {
-        background: #0f1117;
-        border-left: 3px solid #4a9eff;
-        border-radius: 4px;
-        padding: 0.75rem 1rem;
-        font-family: 'Courier New', monospace;
-        font-size: 0.88rem;
-        margin: 0.5rem 0;
-    }
+    background: #0f1117;
+    border-left: 3px solid #4a9eff;
+    border-radius: 4px;
+    padding: 0.75rem 1rem;
+    font-family: 'Courier New', monospace;
+    font-size: 0.88rem;
+    margin: 0.5rem 0;
+    color: #e0e0e0;
+}
     .insight-box {
         background: #0a1f0a;
+        color: #c8f5c8;
         border-left: 3px solid #2ecc71;
         border-radius: 4px;
         padding: 0.75rem 1rem;
@@ -82,6 +84,7 @@ st.markdown("""
     }
     .warn-box {
         background: #1f1500;
+        color: #f5e6c8;
         border-left: 3px solid #f39c12;
         border-radius: 4px;
         padding: 0.75rem 1rem;
